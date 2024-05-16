@@ -1,0 +1,1 @@
+## Example of Spring Boot Lambda with Functions as controllers
