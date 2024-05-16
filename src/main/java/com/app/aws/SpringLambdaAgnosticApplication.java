@@ -16,4 +16,10 @@ public class SpringLambdaAgnosticApplication {
     }
 
 
+    @Bean
+    Function<String, String> function() {
+        return (input) -> {
+            return "Hello " + input;
+        };
+    }
 }
